@@ -29,9 +29,21 @@ body {
   margin: auto;
 }
 
+/* DROPDOWN CSS */
+.redlight-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* optional: makes transition smoother */
+}
+
+.redlight-dropdown .dropdown-toggle::after {
+  display: none; /* optional: hides default arrow if needed */
+}
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
 
 .hover-effect {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.9s ease, box-shadow 0.3s ease;
   }
 
   .hover-effect:hover {
@@ -44,6 +56,8 @@ body {
     overflow: hidden;
   }
 
+  
+
   .team-box img {
     height: 100%;
     width: 100%;
@@ -52,6 +66,7 @@ body {
   }
 
 
+/* MODAL CSS */
 .wc-input {
   background-color: #131212 !important;
   border: 1px solid #ff9999;
@@ -455,7 +470,7 @@ a {
 .social-icons-inner {
   top: 282px;
   position: absolute;
-  left: 122px;
+  /* left: 122px; */
   z-index: 1;
   transition: all 0.3s ease-in-out;
 }
@@ -513,7 +528,7 @@ a {
   border-right: 14px solid transparent;
   border-top: 17px solid var(--e-global-color-red-active);
   position: absolute;
-  top: -32px;
+  top: -26px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -656,9 +671,9 @@ a {
 .banner-img-content {
   padding: 0px 0px 0 0px;
 }
-.banner-container-box .social-icons{
+/* .banner-container-box .social-icons{
   padding: 0px 0px 0 39px;
-}
+} */
 .home-banner-text h1 {
   margin-bottom: 18px;
 }
@@ -668,7 +683,11 @@ a {
   padding-top: 0;
   padding-bottom: 0;
 }
+.home-logo{
+  max-width: 100% !important;
+  width: 180px; 
 
+}
 .dropdown-menu a {
   color: var(--e-global-color-accent) !important;
 }
