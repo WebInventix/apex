@@ -18,6 +18,11 @@ Project: RedLight
 11. Footer Section
 */
 
+
+input{
+  color: #ffffff !important;
+}
+
 body {
   font-family: "Jost", sans-serif !important;
 }
