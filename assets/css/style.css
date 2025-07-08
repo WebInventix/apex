@@ -521,6 +521,14 @@ a {
   text-align: center;
   transition: ease-in-out 0.4s;
 }
+.btn-danger{
+  background-color: #9b1616 !important;
+}
+
+.btn:hover{
+  background-color: #fff !important;
+  color: #9b1616 !important ;
+}
 .navbar-nav .nav-link {
   position: relative;
 }
@@ -1745,7 +1753,7 @@ color: var(--e-global-color-about-teams-red);
   font-weight: 600;
   padding: 25px 40px 25px;
   display: block;
-  background: var(--e-global-color-btn-red);
+  background: #6b1010;
   border-radius: 8px;
   border:none;
   width: 100%;
