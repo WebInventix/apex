@@ -24,6 +24,12 @@ btn-danger.focus,
 .btn-danger:focus {
   box-shadow: none !important;
 }
+.post-image img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
 p {
   color: white !important;
 }
