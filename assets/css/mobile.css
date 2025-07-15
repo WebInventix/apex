@@ -204,9 +204,9 @@
     padding: 40px 0;
   }
 
-  .teams-page {
+  /* .teams-page {
     background-image: linear-gradient(150deg, var(--e-global-color-dark-marron) 2%, var(--e-global-color-dark-icons-background) 14%);
-  }
+  } */
 
   .about-us-section-start p {
     padding: 0 303px;
